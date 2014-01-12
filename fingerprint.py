@@ -1,5 +1,6 @@
 import imp
 import os
+import pluginloader
 
 def loadPlugins():
     for i in pluginloader.getPlugins():
